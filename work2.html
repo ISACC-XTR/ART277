@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My second HTML-CSS work">
+    <meta name="keywords" content="HTML,CSS">
+    <title>HOME EXERCISE</title>
+    <style>
+      * {
+        font-size: 20px;
+      }
+      #div4 div div p {
+        font-family: cursive;
+        font-weight: bold;
+      }
+      p span {
+        font-family: "Times";
+        font-size: 20px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      #div2 ol {
+        list-style-type: upper-roman;
+      }
+      #div2 ol li {
+        padding-bottom: 10px;
+      }
+      #upper-roman {
+        list-style-type: upper-roman;
+      }
+      #upper-alpha {
+        list-style-type: upper-alpha;
+      }
+      #lower-alpha {
+        list-style-type: lower-alpha;
+      }
+      #lower-roman {
+        list-style-type: lower-roman;
+      }
+      #ul-square,
+      #ul-square1 {
+        list-style-type: square;
+      }
+      #disc {
+        list-style-type: disc;
+      }
+      #upper-roman li,
+      #upper-alpha li,
+      #lower-roman li,
+      #lower-alpha li,
+      #ul-square li {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Body with four divs elements -->
+    <div id="div1">
+      <!-- Div 1, MY favorite habit -->
+      <h2>My favorite habit:</h2>
+      <dl>
+        <dt>
+          <ul>
+            <li>Reading Books</li>
+            <li>Watching Movies</li>
+            <li>
+              <div>
+                <span>Programming Language</span>
+                <dl>
+                  <dt></dt>
+                  <dd>
+                    <ul>
+                      <li>Orange</li>
+                      <li>Green</li>
+                      <li>White</li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
+        </dt>
+        <dd></dd>
+      </dl>
+    </div>
+    <div id="div2">
+      <!-- Div 2, Four thigs to expect in life -->
+      <h2>Four things to expect in life&colon;</h2>
+      <dl>
+        <dt>
+          <ul>
+            <li>Love</li>
+          </ul>
+        </dt>
+        <dd>
+          <ol>
+            <li>Happiness</li>
+            <li>Emotions</li>
+          </ol>
+        </dd>
+        <dt>
+          <ul>
+            <li>Hate</li>
+          </ul>
+        </dt>
+        <dd>
+          <ol>
+            <li>Happiness</li>
+            <li>Emotions</li>
+          </ol>
+        </dd>
+        <dt>
+          <ul>
+            <li>Work</li>
+          </ul>
+        </dt>
+        <dd>
+          <ol>
+            <li>Happiness</li>
+            <li>Emotions</li>
+          </ol>
+        </dd>
+        <dt>
+          <ul>
+            <li>Play</li>
+          </ul>
+        </dt>
+        <dd>
+          <ol>
+            <li>Happiness</li>
+            <li>Emotions</li>
+          </ol>
+        </dd>
+      </dl>
+    </div>
+    <div id="div3">
+      <!--Div 3, List of items-->
+      <h2>List of Items&colon;</h2>
+      <dl>
+        <dt></dt>
+        <dd>
+          <ul id="ul-square">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>
+              <div>
+                <span>Item 4</span>
+                <dl>
+                  <dt>
+                    <ul>
+                      <li>Sub-item 1</li>
+                      <li>Sub-item 2</li>
+                      <li>
+                        <div>
+                          <span>Sub-item 3</span>
+                          <dl>
+                            <dt></dt>
+                            <dd>
+                              <ul id="ul-square1">
+                                <li>Sub-sub-item 1</li>
+                                <li>Sub-sub-item 2</li>
+                                <li>
+                                  <div>
+                                    <span>Sub-sub-item 3</span>
+                                    <dl>
+                                      <dt></dt>
+                                      <dd>
+                                        <ul id="disc">
+                                          <li>Sub-sub-sub-item 1</li>
+                                          <li>Sub-sub-sub-item 2</li>
+                                          <li>Sub-sub-sub-item 3</li>
+                                          <li>Sub-sub-sub-item 4</li>
+                                        </ul>
+                                      </dd>
+                                    </dl>
+                                  </div>
+                                </li>
+                                <li>Sub-sub-item 4</li>
+                              </ul>
+                            </dd>
+                          </dl>
+                        </div>
+                      </li>
+                      <li>Sub-item 4</li>
+                    </ul>
+                  </dt>
+                  <dd></dd>
+                </dl>
+              </div>
+            </li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
+    <div id="div4">
+      <!-- Div 4, Aircraft types -->
+      <h2>Aircraft types&colon;</h2>
+      <dl>
+        <dt>
+          <ul>
+            <li>
+              <div>
+                <p>
+                  <span
+                    >General Aviation &lpar;Piston-driven engines&rpar;</span
+                  >
+                </p>
+                <dl>
+                  <dt></dt>
+                  <dd>
+                    <ol>
+                      <li>
+                        <div>
+                          <p>Single-Engine Aircraft</p>
+                          <dl>
+                            <dt></dt>
+                            <dd>
+                              <ol id="upper-roman">
+                                <li>Tail Wheel</li>
+                                <li>Tricycle</li>
+                              </ol>
+                            </dd>
+                          </dl>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>Dual-Engine Aircraft</p>
+                          <dl>
+                            <dt></dt>
+                            <dd>
+                              <ol id="upper-alpha">
+                                <li>Wing-mounted engines</li>
+                                <li>Fuselage mounted engines</li>
+                              </ol>
+                            </dd>
+                          </dl>
+                        </div>
+                      </li>
+                    </ol>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>
+                  <span>Commercial Aviation &lpar;Jet engines&rpar;</span>
+                </p>
+                <dl>
+                  <dt></dt>
+                  <dd>
+                    <ol>
+                      <li>
+                        <div>
+                          <p>Dual-Engine</p>
+                          <dl>
+                            <dt></dt>
+                            <dd>
+                              <ol id="lower-alpha">
+                                <li>Wing-mounted engines</li>
+                                <li>Fuselage-mounted engines</li>
+                              </ol>
+                            </dd>
+                          </dl>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>Tri-Engine</p>
+                          <dl>
+                            <dt></dt>
+                            <dd>
+                              <ol id="lower-roman">
+                                <li>Third engine in vertical stabilizer</li>
+                                <li>Third engine in Fuselage</li>
+                              </ol>
+                            </dd>
+                          </dl>
+                        </div>
+                      </li>
+                    </ol>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
+        </dt>
+        <dd></dd>
+      </dl>
+    </div>
+    <!-- END OF WORK! DONE BY ISACC SIEKRON SAYEH (7546) -->
+  </body>
+</html>
