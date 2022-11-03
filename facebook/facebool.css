@@ -1,0 +1,229 @@
+.main .head{
+    background-color: purple;
+    color: white;
+    height: 50px;
+}
+.head p{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.see-photos{
+    border: 1px solid white;
+    padding: 2px;
+    float: right;
+    border-radius: 2px;
+}
+.fb input{
+    cursor: pointer;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 20px 1fr 60px ;
+    width: 100%;
+    column-gap: 5px;
+    
+}
+.body{
+    background-color: blue;
+    padding: 10px;
+}
+.search{
+    width: 100% ;
+}
+.button{
+    width: 99%
+}
+.span span a{
+    color: blue;
+    border: 1px solid white;
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: bolder;
+    width: 100%;
+    border-radius: 10%;
+    text-decoration: none;
+}
+.span{
+    width: 100%;
+    margin-top: 1px;
+}
+.mid{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between;
+    flex-wrap: wrap                                                                                                                                                                                                                                                                                 ;
+    color: white;
+    margin-top: 5px;
+    width: 100%;
+    }
+.home a, .profile a, .messages a, .chats a, .pages a, .covid a, .menu a{
+    width: 100%;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.notifications a,
+.friends a,
+.groups a{
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.post img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey
+}
+.post1{
+    display: grid;
+    grid-template-columns: 50px 1fr 70px;
+}
+.inp input, .pos input{
+    height: 48px;
+}
+.inp input{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.inp{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.pos input{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.pos{
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.post{
+    background-color: rgb(235, 228, 228);
+    padding: 10px;
+}
+.post a{
+    text-decoration: none;
+}
+.post p{
+    margin-top: 0;
+}
+.ph, .fel, .triple{
+    display: inline-block;
+    padding-right: 5px;
+}
+.triple span{
+    display: inline-block;
+    height: fit-content;
+    font-size: 20px;
+    
+}
+.request p{
+    margin: 0;
+    padding: 5px;
+
+}
+.request{
+    background-color: rgb(240, 240, 245);
+    border-bottom: 1px solid rgb(86, 82, 82);
+    margin-bottom: 4px;
+    font-weight: bolder;
+}
+.bless{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+.pewee img{
+    width: 100%;
+    border: 1px solid grey
+}
+.pewee{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.pro-info{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin-left: 5px;
+}
+.name {
+    height: 20px;
+    margin: 0;
+}
+.name p{
+    height: 100%;
+    margin: 0
+}
+.mutual{
+    margin: 0;
+}
+.mutual p{
+    margin: 0;
+}
+.btn1{
+    font-size: 10px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+}
+.btn2{
+    font-size: 10px;
+    color:rgb(79, 77, 77);
+    background-color: rgb(173, 169, 169);
+    border-radius: 4px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid whitesmoke;
+    font-weight: bold;
+}
+.name p a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.name p a:hover{
+    text-decoration: underline;
+}
+.mutual p{
+    font-size: 12px;
+    font-weight: bolder;
+    color:rgb(134, 134, 131)
+}
+.fit{
+    border-top: 1px solid rgb(95, 95, 95);
+    border-bottom: 1px solid rgb(94, 92, 92);
+    padding-top: 5px;
+    margin-bottom: 100px;
+}
+.home:hover, 
+.profile:hover,
+.messages:hover,
+.notifications:hover,
+.chats:hover,
+.friends:hover,
+.pages:hover,
+.groups:hover,
+.covid:hover,
+.menu:hover{
+    background-color: rgb(215, 214, 214);
+    transition: 0.1s ease-out;
+}
+.isacc:hover{
+    cursor: pointer;
+}

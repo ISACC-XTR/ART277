@@ -1,0 +1,113 @@
+.xtr{
+    background-color: rgb(37, 5, 37);
+}
+.xtr1{
+    background-color: white;
+}
+.imm{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 70px 1fr;
+    border: none;
+}
+.com{
+    display: grid;
+    grid-template-rows: 20px 80px 20px ;
+}
+.imm-img{
+    height: 76px;
+    width: 66px;
+    border: 2px solid rgb(173, 168, 168);
+}
+.imm-sub1, .imm-sub2, .imm-sub3{
+    height: 80px;
+}
+.imm-sub1, .imm-sub3{
+    background-color: blue;
+    padding:0%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 65% 35%;
+}
+.imm-subsub0{
+    background-color: rgb(37, 5, 37);
+}
+.imm-subsub1{
+    background-color: white;;
+}
+.pace, .pace h2{
+    margin: 0;
+    text-align: center;
+}
+.pace h2{
+    display: inline;
+}
+.pace span{
+    color: rgb(15, 167, 15);
+    font-size: x-large;
+
+}
+.left p{
+    margin: 0;
+    color: rgb(52, 52, 247);
+    width: fit-content;
+}
+.left p span{
+    color: black;
+}
+.left{
+    margin-top: 15px;
+}
+.active{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    color: rgb(52, 52, 247)
+}
+.active p, .active p{
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.gri{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto 1fr;
+    column-gap: 5px;
+    
+}
+.gri1,
+.gri2{
+    width: 100%;
+    color: rgb(52, 52, 247);
+}
+.gri1:hover, .left p:hover{
+    cursor: pointer;
+    background-color: rgb(215, 214, 214);
+    padding: 2px;
+}
+.link{
+    text-decoration: none;
+    color:rgb(52, 52, 247)
+}
+.gri{
+    margin-bottom: 100px;
+    margin-top: 15px;
+}
+.dt{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 1fr;
+    column-gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15;
+}
+.dt1, .dt2{
+    border: 2px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: rgb(111, 106, 106);
+    cursor: pointer;
+}
+.dt1:active, .dt2:active{
+    background-color: grey;
+}

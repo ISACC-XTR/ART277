@@ -1,0 +1,68 @@
+.messages{
+    background-color: rgb(215, 214, 214);
+}
+.mes h3{
+    margin: 0;
+}
+.mes2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: space-between;
+
+}
+.mes-mes{
+    background-color: white;
+    flex: auto;
+    margin-right: 2px;
+}
+.mes-mes1{
+    background-color: white;
+    flex: auto;
+    margin-left: 2px;
+}
+.mes-mes, .mes-mes1{
+    text-align: center;
+    border: 2px solid rgb(182, 182, 198);
+    padding: 5px;
+    color: rgb(52, 52, 247);
+    cursor: pointer;
+}
+.big{
+    background-color: rgb(218, 218, 239);
+    border-bottom: 2px solid rgb(182, 182, 198);
+    padding: 0;
+    margin: 0;
+}
+.sp{
+    color: rgb(52, 52, 247);
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.bles h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:rgb(52, 52, 247);
+    cursor: pointer;
+    width: fit-content;
+}
+.bles p{
+    margin: 0;
+    font-size: small;
+}
+.bles{
+    border-bottom: 1px solid rgb(182, 182, 198);
+    padding-bottom: 5px;
+}
+.p{
+    color:rgb(52, 52, 247);
+}
+.ove{
+    margin-bottom: 100px;
+}
+.bles h4:hover{
+    background-color:rgb(182, 182, 198);
+    width: fit-content;
+}

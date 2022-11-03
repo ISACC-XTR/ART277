@@ -1,0 +1,63 @@
+.chats{
+background-color: rgb(215, 214, 214);
+}
+.cont{
+    
+    background-color:rgb(204, 218, 235);
+    color: rgb(52, 52, 247);
+    border-bottom: 4px solid rgb(150, 154, 159);
+    border-bottom-style: double;
+}
+.act{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+.act p{
+    margin: 10px;
+}
+.act2 p span{
+    color: rgb(18, 181, 18);
+}
+.rat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.rat1 h2{
+    color: rgb(132, 133, 149);
+}
+.rat2 h3 a{
+    text-decoration: none;
+    color:rgb(52, 52, 247);
+}
+.rat2 h3 a:hover{
+    background-color:rgb(150, 154, 159);
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    color:rgb(52, 52, 247);
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    border-bottom: 2px inset rgb(220, 226, 232);
+}
+.list2{
+    color: rgb(18, 181, 18);
+}
+.list1 p, .list2 p{
+    margin: 0;
+    padding: 7px;
+    cursor: pointer;
+}
+.hold{
+    margin-bottom: 100px;
+}
+.list1 p:hover{
+        background-color:rgb(150, 154, 159);
+}
